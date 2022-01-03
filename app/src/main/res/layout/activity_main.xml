@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_light_background"
     tools:context=".MainActivity">
 
     <TextView
@@ -28,6 +27,7 @@
         android:layout_height="wrap_content"
         android:hint="enter 1st number"
         android:inputType="number"
+        android:textColor="#FF018786"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/num2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:hint="enter 2nd number"
         android:inputType="number"
+        android:textColor="#FF018786"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
