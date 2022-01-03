@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical">
+    android:background="@color/back"
 
     <androidx.appcompat.widget.AppCompatAutoCompleteTextView
         android:id="@+id/tvTitle"
